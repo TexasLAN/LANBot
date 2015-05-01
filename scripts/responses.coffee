@@ -42,8 +42,8 @@ module.exports = (robot) ->
   robot.hear /(tobbert|databae)/i, (msg) ->
     msg.send "@rmlynch"
 
-  robot.hear /stevie/i, (msg) ->
-    msg.send "@steven"
+  robot.hear /estevie/i, (msg) ->
+    msg.send "@stevendiaz"
 
   robot.hear /real *man/i, (msg) ->
     msg.send "I think you mean a Real Hacker, genders yo"
