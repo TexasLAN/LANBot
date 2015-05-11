@@ -65,3 +65,6 @@ module.exports = (robot) ->
     
   robot.hear /lean/i, (msg) ->
     msg.send "did someone say _lean_? :doublecup:"
+    
+  robot.hear /~source/i, (msg) ->
+    msg.send "https://github.com/TexasLAN/LANBot"
