@@ -119,7 +119,7 @@ class AMAManager
         if @channels.length == 0 || msg.message.user.room in @channels
             return true
         else
-            msg.send "You must be in a valid channel to use this command"
+            #msg.send "You must be in a valid channel to use this command"
             return false
 
 module.exports = (robot) ->
