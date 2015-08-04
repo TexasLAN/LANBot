@@ -93,8 +93,11 @@ module.exports = (robot) ->
       msg.send "@erynzzz"
 
   robot.hear /(not|barely|hardly) *a *(huge|big)? *fan/i, (msg) ->
-    if !responses.isMuted msg
-      msg.send "https://imgs.xkcd.com/comics/turbine.png"
+    selector = 1
+    if Math.floor(Math.random() * 10) == selector
+      if !responses.isMuted msg
+        msg.send "https://imgs.xkcd.com/comics/turbine.png"
+      
 
   robot.hear /(tobbert|databae)/i, (msg) ->
     if !responses.isMuted msg
