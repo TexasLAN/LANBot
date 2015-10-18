@@ -156,9 +156,6 @@ module.exports = (robot) ->
   
   robot.hear /(^|\s+)doug/i, (msg) ->
     responses.sendMessage msg, "@arrdem :doge:"
-
-  robot.hear /(^|\s+)alright/i, (msg) ->
-    responses.sendMessage msg, "Alls my life I has to FIGHT!! :yeezus:"
     
   robot.hear /^\s*texas!?\s*$/i, (msg) ->
     responses.sendMessage msg, "FIGHT"
