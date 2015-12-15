@@ -141,7 +141,7 @@ module.exports = (robot) ->
       @count = 0
   
   robot.hear /kanye/i, (msg) ->
-    responses.sendMessage msg, ":yeezus:"
+    responses.sendMessage msg, ":yee:"
       
   robot.hear /\byc/i, (msg) ->
     responses.sendMessage msg, "all hail the yuppie cabal"
