@@ -58,6 +58,9 @@ module.exports = (robot) ->
   robot.hear /\~shame/i, (msg) ->
     msg.send "http://goo.gl/RR5VmC"
 
+  robot.hear /~source/i, (msg) ->
+    msg.send "https://github.com/TexasLAN/LANBot"
+
   robot.hear /git\ status/i, (msg) ->
     if !responses.isMuted msg
       msg.send "```\n" +
