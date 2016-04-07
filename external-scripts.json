@@ -1,14 +1,9 @@
 [
   "hubot-diagnostics",
   "hubot-help",
-  "hubot-google-images",
-  "hubot-google-translate",
-  "hubot-maps",
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-shipit",
-  "hubot-youtube",
-  "hubot-plusplus-plus",
   "hubot-aotw",
   "hubot-ama"
 ]
