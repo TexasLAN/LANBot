@@ -58,17 +58,17 @@ module.exports = (robot) ->
   robot.hear /coachwiggly/i, (msg) ->
     msg.send "@andy"
 
-  robot.hear /(^.{0,4}mo[ou]se|((?!masha).{5}mo[ou]se))/i, (msg) ->
-    msg.send "@mashamouse"
+  #robot.hear /(^.{0,4}mo[ou]se|((?!masha).{5}mo[ou]se))/i, (msg) ->
+   # msg.send "@mashamouse"
 
-  robot.hear /^\s*friday\s*$/i, (msg) ->
-    msg.send "DRINK DAY"
+  #robot.hear /^\s*friday\s*$/i, (msg) ->
+    #msg.send "DRINK DAY"
 
-  robot.hear /^\s*tuesday\s*$/i, (msg) ->
-    msg.send "CLUB GOIN UP"
+  #robot.hear /^\s*tuesday\s*$/i, (msg) ->
+    #msg.send "CLUB GOIN UP"
 
-  robot.hear /^\s*pizza\s*$/i, (msg) ->
-    msg.send "@addy"
+  #robot.hear /^\s*pizza\s*$/i, (msg) ->
+   # msg.send "@addy"
 
   robot.hear /it's *happening/i, (msg) ->
     msg.send "http://i.imgur.com/7drHiqr.gif"
@@ -82,83 +82,83 @@ module.exports = (robot) ->
   robot.hear /(not|barely|hardly) *a *(huge|big)? *fan/i, (msg) ->
     msg.send "https://imgs.xkcd.com/comics/turbine.png"
 
-  robot.hear /(tobbert|databae)/i, (msg) ->
-    msg.send "@rmlynch"
+ # robot.hear /(tobbert|databae)/i, (msg) ->
+  #  msg.send "@rmlynch"
 
-  robot.hear /(^|\s+)stevie/i, (msg) ->
-    msg.send "@steven"
+ # robot.hear /(^|\s+)stevie/i, (msg) ->
+  #  msg.send "@steven"
 
-  robot.hear /real *man/i, (msg) ->
-    msg.send "I think you mean a Real Hacker, genders yo"
+ # robot.hear /real *man/i, (msg) ->
+  #  msg.send "I think you mean a Real Hacker, genders yo"
 
-  robot.hear /(\s+|^)ls(\s+|$)/, (msg) ->
-    msg.send "Hey everyone, make fun of " + msg.message.user.name.toLowerCase() + " for trying to `ls` in slack!"
+  #robot.hear /(\s+|^)ls(\s+|$)/, (msg) ->
+    #msg.send "Hey everyone, make fun of " + msg.message.user.name.toLowerCase() + " for trying to `ls` in slack!"
 
   robot.hear /long *live *slackbot/i, (msg) ->
     msg.send "I killed slackbot"
 
-  robot.hear /:crab:/, (msg) ->
-    msg.send "Ravioli ravioli give me the formuoli"
+  #robot.hear /:crab:/, (msg) ->
+   # msg.send "Ravioli ravioli give me the formuoli"
 
-  robot.hear /about a week ago/i, (msg) ->
-    msg.send "WEEK AGO"
+  #robot.hear /about a week ago/i, (msg) ->
+    #msg.send "WEEK AGO"
 
-  robot.hear /(^|\s+)lean/i, (msg) ->
-    msg.send ":doublecup:"
+  #robot.hear /(^|\s+)lean/i, (msg) ->
+    #msg.send ":doublecup:"
 
-  robot.hear /cop kill(a|er) t/i, (msg) ->
-    msg.send "@samtallent"
+  #robot.hear /cop kill(a|er) t/i, (msg) ->
+    #msg.send "@samtallent"
 
-  robot.hear  /lenny/i, (msg) ->
-    msg.send "_o u kno ( ͡° ͜ʖ ͡°)_"
+  #robot.hear  /lenny/i, (msg) ->
+    #msg.send "_o u kno ( ͡° ͜ʖ ͡°)_"
 
-  robot.hear /\~cake/i, (msg) ->
-    cake_replies = ["http://imgur.com/xpv1gZz", "http://imgur.com/blKDv1f", "http://imgur.com/BEqVbhZ", "http://imgur.com/b7D9Svx", "http://imgur.com/iFcbsoF", "http://imgur.com/NjDBhvE"]
-    msg.send cake_replies[@count]
-    if(@count != 6)
-      @count += 1
-    else
-      @count = 0
+  #robot.hear /\~cake/i, (msg) ->
+    #cake_replies = ["http://imgur.com/xpv1gZz", "http://imgur.com/blKDv1f", "http://imgur.com/BEqVbhZ", "http://imgur.com/b7D9Svx", "http://imgur.com/iFcbsoF", "http://imgur.com/NjDBhvE"]
+    #msg.send cake_replies[@count]
+    #if(@count != 6)
+      #@count += 1
+    #else
+      #@count = 0
 
-  robot.hear /kanye/i, (msg) ->
-    msg.send ":yeezus:"
+  #robot.hear /kanye/i, (msg) ->
+    #msg.send ":yeezus:"
 
-  robot.hear /\byc/i, (msg) ->
-    msg.send "all hail the yuppie cabal"
+  #robot.hear /\byc/i, (msg) ->
+    #msg.send "all hail the yuppie cabal"
 
-  robot.hear /(^|\s+)doug/i, (msg) ->
-    msg.send "@arrdem :doge:"
+  #robot.hear /(^|\s+)doug/i, (msg) ->
+    #msg.send "@arrdem :doge:"
 
-  robot.hear /^\s*texas!?\s*$/i, (msg) ->
-    msg.send "FIGHT"
+  #robot.hear /^\s*texas!?\s*$/i, (msg) ->
+    #msg.send "FIGHT"
 
-  robot.hear /^\s*ou!?\s*$/i, (msg) ->
-    msg.send "SUCKS"
+  #robot.hear /^\s*ou!?\s*$/i, (msg) ->
+    #msg.send "SUCKS"
 
-  robot.hear /^([^:]python[^:]|anaconda)/i, (msg) ->
-    v = Math.floor(Math.random() * 100)
-    if v == 6
-      msg.send "you snek looking for prey and when you find it you strikes with a raging fury, unless she say's no.."
-    if v == 7
-      msg.send
+  #robot.hear /^([^:]python[^:]|anaconda)/i, (msg) ->
+    #v = Math.floor(Math.random() * 100)
+    #if v == 6
+      #msg.send "you snek looking for prey and when you find it you strikes with a raging fury, unless she say's no.."
+    #if v == 7
+      #msg.send
 
-  robot.respond /rule (1|one)$/i, (msg) ->
-    msg.send "1. have a life"
+  #robot.respond /rule (1|one)$/i, (msg) ->
+    #msg.send "1. have a life"
 
-  robot.respond /rule (2|two)$/i, (msg) ->
-    msg.send "2. be up front and honest"
+  #robot.respond /rule (2|two)$/i, (msg) ->
+    #msg.send "2. be up front and honest"
 
-  robot.respond /rule (3|three)$/i, (msg) ->
-    msg.send "3. take no for an answer. no seriously do."
+  #robot.respond /rule (3|three)$/i, (msg) ->
+    #msg.send "3. take no for an answer. no seriously do."
 
-  robot.respond /rule (4|four)$/i, (msg) ->
-    msg.send "4. you aren't exclusive until you say you're exclusive"
+  #robot.respond /rule (4|four)$/i, (msg) ->
+    #msg.send "4. you aren't exclusive until you say you're exclusive"
 
-  robot.respond /rule (5|five)$/i, (msg) ->
-    msg.send "5. Reid if you want to meet girls you need to do things that girls do"
+  #robot.respond /rule (5|five)$/i, (msg) ->
+    #msg.send "5. Reid if you want to meet girls you need to do things that girls do"
 
-  robot.hear /rule (34|thirty four)$/i, (msg) ->
-    msg.send "34. If it is on the internet, there is porn of it"
+  #robot.hear /rule (34|thirty four)$/i, (msg) ->
+    #msg.send "34. If it is on the internet, there is porn of it"
 
   robot.catchAll (msg) ->
     selector = 2
