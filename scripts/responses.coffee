@@ -124,7 +124,7 @@ module.exports = (robot) ->
     else
       @count = 0
 
-  robot.hear /kanye/i, (msg) ->
+  robot.hear /^\s*kanye\s*$/i, (msg) ->
     msg.send ":yeezus:"
 
   robot.hear /\byc/i, (msg) ->
