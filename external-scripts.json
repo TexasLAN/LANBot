@@ -10,5 +10,6 @@
   "hubot-youtube",
   "hubot-plusplus-plus",
   "hubot-aotw",
-  "hubot-ama"
+  "hubot-ama",
+  "hubot-markov"
 ]
