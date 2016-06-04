@@ -63,5 +63,11 @@ module.exports = (robot) ->
       str.indexOf("@everyone") == -1
 
   robot.responseMiddleware (context, next, done) ->
+    # Final check before sending out any message
     return unless isValid(context.strings) && !responses.isMuted context.response.message
+    next()
+
+  robot.listenerMiddleware (context, next, done) ->
+    # Check if command is valid before processing
+    return unless isValid(context.response.message.text)
     next()
