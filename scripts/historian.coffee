@@ -28,7 +28,6 @@ class HistorianManager
       @history.push({room, user, cmd})
 
   printHistory: (msg) ->
-    msg.send JSON.stringify(@history)
     count = 0
     for h in @history by -1
       if h["room"] == msg.message.user.room and count < 10
