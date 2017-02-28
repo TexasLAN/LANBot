@@ -30,6 +30,9 @@ module.exports = (robot) ->
 
   robot.hear /~suggestions/i, (msg) ->
     msg.send "https://goo.gl/NahhsA"
+  
+  robot.hear /~coc/i, (msg) ->
+    msg.send "<=============3"
 
   robot.hear /~admin/i, (msg) ->
     replies = ['HELP', 'HAAAAALP', "HELP HELP WE'RE BEING REPRESSED", "INSTANT REGRET"]
