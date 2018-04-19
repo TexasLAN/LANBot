@@ -164,6 +164,9 @@ module.exports = (robot) ->
   robot.hear /rule (34|thirty four)$/i, (msg) ->
     msg.send "34. If it is on the internet, there is porn of it"
 
+  robot.hear /oops/i (msg) ->
+    msg.send "OOPSIE WOOPSIE!! UwU We made a fucky wucky!! A wittle fucko boingo! The code monkeys at our headquarters are working VEWY HAWD to fix this!"
+    
   robot.hear /@pledges/i, (msg) ->
     msg.send  "<@U9A1YSU8Y>" + # Alex Stahl
               " <@U9AUKE7QV>" + # Antonio de Cesare
