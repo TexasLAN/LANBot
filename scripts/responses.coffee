@@ -165,24 +165,7 @@ module.exports = (robot) ->
     msg.send "34. If it is on the internet, there is porn of it"
 
   robot.hear /@pledges/i, (msg) ->
-    msg.send  "<@U9A1YSU8Y>" + # Alex Stahl
-              " <@U9AUKE7QV>" + # Antonio de Cesare
-              " <@U9A7E17TK>" + # Avner Khan
-              " <@U9ASGF1BM>" + # Deepthi Pittala
-              " <@U9AL76D8B>" + # Emily Arce
-              " <@U9C1Q3A4X>" + # Erica Guthan
-              " <@U9AN41JFN>" + # Henry Rossiter
-              " <@U9A6UC7QQ>" + # Holly Herman
-              " <@U9BGVJXJA>" + # Ira Gulati
-              " <@U9AM4ABB5>" + # Jackson Krauss
-              " <@U9BS46R1D>" + # Jamison Miles
-              " <@U9A4G0TPS>" + # Jerry Huang
-              " <@U9BNM6ZHV>" + # Katherine Donovan
-              " <@U9ALK0AP5>" + # Madhuri Mahendhravarman
-              " <@U9A856NG1>" + # Patrick Bell
-              " <@U9AJ3JU1H>" + # Siwei Mao
-              " <@U9ADE5U3T>" + # Sonali Kondapalli
-              " <@U9ATXS16Z>"   # Vaishnav Gubba	
+    msg.send  "404 no pledges found"
     # Tutorial:
     # 1) Navigate to https://www.texaslan.org/users/ and view Pledges (order alphabetically)
     # 2) Open the Slack desktop app, hamburger button (top right), Workspace Directory
