@@ -165,24 +165,19 @@ module.exports = (robot) ->
     msg.send "34. If it is on the internet, there is porn of it"
 
   robot.hear /@pledges/i, (msg) ->
-    msg.send  "<@U9A1YSU8Y>" + # Alex Stahl
-              " <@U9AUKE7QV>" + # Antonio de Cesare
-              " <@U9A7E17TK>" + # Avner Khan
-              " <@U9ASGF1BM>" + # Deepthi Pittala
-              " <@U9AL76D8B>" + # Emily Arce
-              " <@U9C1Q3A4X>" + # Erica Guthan
-              " <@U9AN41JFN>" + # Henry Rossiter
-              " <@U9A6UC7QQ>" + # Holly Herman
-              " <@U9BGVJXJA>" + # Ira Gulati
-              " <@U9AM4ABB5>" + # Jackson Krauss
-              " <@U9BS46R1D>" + # Jamison Miles
-              " <@U9A4G0TPS>" + # Jerry Huang
-              " <@U9BNM6ZHV>" + # Katherine Donovan
-              " <@U9ALK0AP5>" + # Madhuri Mahendhravarman
-              " <@U9A856NG1>" + # Patrick Bell
-              " <@U9AJ3JU1H>" + # Siwei Mao
-              " <@U9ADE5U3T>" + # Sonali Kondapalli
-              " <@U9ATXS16Z>"   # Vaishnav Gubba	
+    msg.send  "<@UD3NNU7BM>" + # Andrew Cameron
+              " <@UD3RNKAR0>" + # Amanda Jackson
+              " <@UD34052TS>" + # Aparna Jayakumar
+              " <@UD34D6ELQ>" + # Brock Frazier
+              " <@UD57XFZM4>" + # Claire Stephenson
+              " <@UD4THF7QF>" + # Diego Alcoz
+              " <@UD3L5RQDS>" + # Jon Dalcourt
+              " <@UD344DF7S>" + # J.P. Jimenez
+              " <@UD3NMGK4K>" + # Kevin Nguyen
+              " <@UD392MRDX>" + # Larisa Liberty
+              " <@UD3TG7H7U>" + # Megan Hseu
+              " <@UD3RWSD3L>" + # Shreya Chandrasekar
+              " <@UD38ZRCU9>"  # Yashasvi Madan
     # Tutorial:
     # 1) Navigate to https://www.texaslan.org/users/ and view Pledges (order alphabetically)
     # 2) Open the Slack desktop app, hamburger button (top right), Workspace Directory
