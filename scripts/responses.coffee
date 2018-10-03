@@ -175,9 +175,10 @@ module.exports = (robot) ->
               " <@UD344DF7S>" + # J.P. Jimenez
               " <@UD3NMGK4K>" + # Kevin Nguyen
               " <@UD392MRDX>" + # Larisa Liberty
+              " <@UD443ESEN>" + # Luke Hill
               " <@UD3TG7H7U>" + # Megan Hseu
               " <@UD3RWSD3L>" + # Shreya Chandrasekar
-              " <@UD38ZRCU9>"  # Yashasvi Madan
+              " <@UD38ZRCU9>"   # Yashasvi Madan
     # Tutorial:
     # 1) Navigate to https://www.texaslan.org/users/ and view Pledges (order alphabetically)
     # 2) Open the Slack desktop app, hamburger button (top right), Workspace Directory
