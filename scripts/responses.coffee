@@ -170,7 +170,6 @@ module.exports = (robot) ->
               " <@UD34052TS>" + # Aparna Jayakumar
               " <@UD34D6ELQ>" + # Brock Frazier
               " <@UD57XFZM4>" + # Claire Stephenson
-              " <@UD4THF7QF>" + # Diego Alcoz
               " <@UD3L5RQDS>" + # Jon Dalcourt
               " <@UD344DF7S>" + # J.P. Jimenez
               " <@UD3NMGK4K>" + # Kevin Nguyen
