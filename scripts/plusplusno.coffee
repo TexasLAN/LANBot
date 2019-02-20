@@ -1,4 +1,3 @@
-SlackClient = require '../node_modules/hubot-slack/src/client'
 SlackBot = require '../node_modules/hubot-slack/src/bot'
 
 module.exports = (robot) ->
@@ -7,8 +6,6 @@ module.exports = (robot) ->
 
     if msg.direction != '++' 
       return
-
-    robot.logger.info "TOKEN: #{process.env.HUBOT_SLACK_TOKEN}"
 
     bot = new SlackBot(robot, {
       token: process.env.HUBOT_SLACK_TOKEN
