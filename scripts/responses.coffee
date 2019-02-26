@@ -165,19 +165,19 @@ module.exports = (robot) ->
     msg.send "34. If it is on the internet, there is porn of it"
 
   robot.hear /@pledges/i, (msg) ->
-    msg.send  "<@UD3NNU7BM>" + # Andrew Cameron
-              " <@UD3RNKAR0>" + # Amanda Jackson
-              " <@UD34052TS>" + # Aparna Jayakumar
-              " <@UD34D6ELQ>" + # Brock Frazier
-              " <@UD57XFZM4>" + # Claire Stephenson
-              " <@UD3L5RQDS>" + # Jon Dalcourt
-              " <@UD344DF7S>" + # J.P. Jimenez
-              " <@UD3NMGK4K>" + # Kevin Nguyen
-              " <@UD392MRDX>" + # Larisa Liberty
-              " <@UD443ESEN>" + # Luke Hill
-              " <@UD3TG7H7U>" + # Megan Hseu
-              " <@UD3RWSD3L>" + # Shreya Chandrasekar
-              " <@UD38ZRCU9>"   # Yashasvi Madan
+    msg.send  "<@UGGFG5RE2>" + # Aman Hingu
+              " <@UGF9KPHD2>" + # Brady Parker
+              " <@UGG5FJ9P1>" + # Brent Mobbs
+              " <@UGF07T6UB>" + # Earl Potts
+              " <@UGGEHEN94>" + # Eathan Houston
+              " <@UGGH36GLE>" + # Gareth Meredith
+              " <@UGF5VL5TL>" + # Jenna Chenette
+              " <@UGEV0N075>" + # Katelyn DeBacker
+              " <@UGF1ZFXNG>" + # Krisp(y) Balnscet
+              " <@UGF13QTV2>" + # Nakul Shah
+              " <@UGF1XDGUA>" + # Saarem Azmat
+              " <@UGG63BLDD>" + # (Ayo)Telemi Ojo
+              " <@UGETQU0N7>"   # Will Hudson
     # Tutorial:
     # 1) Navigate to https://www.texaslan.org/users/ and view Pledges (order alphabetically)
     # 2) Open the Slack desktop app, hamburger button (top right), Workspace Directory
