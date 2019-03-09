@@ -168,7 +168,6 @@ module.exports = (robot) ->
     msg.send  "<@UGGFG5RE2>" + # Aman Hingu
               " <@UGF9KPHD2>" + # Brady Parker
               " <@UGG5FJ9P1>" + # Brent Mobbs
-              " <@UGF07T6UB>" + # Earl Potts
               " <@UGGEHEN94>" + # Eathan Houston
               " <@UGGH36GLE>" + # Gareth Meredith
               " <@UGF5VL5TL>" + # Jenna Chenette
