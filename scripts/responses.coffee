@@ -174,7 +174,6 @@ module.exports = (robot) ->
               " <@UGEV0N075>" + # Katelyn DeBacker
               " <@UGF1ZFXNG>" + # Krisp(y) Balnscet
               " <@UGF13QTV2>" + # Nakul Shah
-              " <@UGF1XDGUA>" + # Saarem Azmat
               " <@UGG63BLDD>" + # (Ayo)Telemi Ojo
               " <@UGETQU0N7>"   # Will Hudson
     # Tutorial:
