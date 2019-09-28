@@ -165,17 +165,14 @@ module.exports = (robot) ->
     msg.send "34. If it is on the internet, there is porn of it"
 
   robot.hear /@pledges/i, (msg) ->
-    msg.send  "<@UGGFG5RE2>" + # Aman Hingu
-              " <@UGF9KPHD2>" + # Brady Parker
-              " <@UGG5FJ9P1>" + # Brent Mobbs
-              " <@UGGEHEN94>" + # Eathan Houston
-              " <@UGGH36GLE>" + # Gareth Meredith
-              " <@UGF5VL5TL>" + # Jenna Chenette
-              " <@UGEV0N075>" + # Katelyn DeBacker
-              " <@UGF1ZFXNG>" + # Krisp(y) Balnscet
-              " <@UGF13QTV2>" + # Nakul Shah
-              " <@UGG63BLDD>" + # (Ayo)Telemi Ojo
-              " <@UGETQU0N7>"   # Will Hudson
+    msg.send  "<@UNNBLK3GR>" + # Alvin Lo
+              " <@UNN4ZFBLH>" + # Cionne Nodd
+              " <@UNG0J4P2N>" + # Hannah Alnemer
+              " <@UNH3D8BDZ>" + # Jaden Hyde
+              " <@UNUHUCN6L>" + # Jared Kahl
+              " <@UNWR6DQT0>" + # Neel Gopal
+              " <@UNU3Q61T6>" + # Shikhar Gupta
+              " <@UNWPG6QCE>"  # Siddhesh Krishnan
     # Tutorial:
     # 1) Navigate to https://www.texaslan.org/users/ and view Pledges (order alphabetically)
     # 2) Open the Slack desktop app, hamburger button (top right), Workspace Directory
