@@ -171,7 +171,6 @@ module.exports = (robot) ->
               " <@UNH3D8BDZ>" + # Jaden Hyde
               " <@UNUHUCN6L>" + # Jared Kahl
               " <@UNWR6DQT0>" + # Neel Gopal
-              " <@UNU3Q61T6>" + # Shikhar Gupta
               " <@UNWPG6QCE>"  # Siddhesh Krishnan
     # Tutorial:
     # 1) Navigate to https://www.texaslan.org/users/ and view Pledges (order alphabetically)
